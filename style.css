@@ -1,0 +1,85 @@
+body{
+    padding-top: 800px;
+    text-align: center;
+}
+.image{
+    width:500px;
+    border-radius:35%;
+}
+#welcome{
+  position: absolute;
+    overflow: hidden;
+        height: 800px;
+    color:yellow;
+    display: table;
+    background-image:repeating-linear-gradient(#ff0000,#0004f5,#ff0000,#0004f5,#ff0000,#0004f5);
+    width:100%;
+    height:100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    
+}
+.intro{
+   text-align: center;
+    display:table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 13;
+}
+h1{
+        font-size: 70px;
+    font-family: 'KoHo', sans-serif;
+}
+#name{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 60px;
+}
+h3{
+font-family: 'Inconsolata', monospace;
+        font-size: 40px;
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+p{
+    line-height: 1.2;
+    margin:15px auto;
+}
+.line{
+    background-color: black;
+    width: 100px;
+    height: 5px;
+margin: 8px auto;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    z-index: 14;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+.item{
+    color: aquamarine;
+    font-size: 20px;
+    font-family: 'KoHo', sans-serif;
+    float: left;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 10px;
+    padding-right:10px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+        color:darkgoldenrod;
+}
+html{
+    scroll-behavior: smooth;
+}
